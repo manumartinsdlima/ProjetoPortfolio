@@ -55,7 +55,7 @@ header{
 
 .logo{
     width: fit-content;
-    min-width: 150px;
+    min-width: 100px;
     margin-left: 30px;
     align-content: center;
     transition: all 1s;
@@ -83,7 +83,7 @@ header{
 }
 
 .logo-menu{
-    min-width: 60px;
+
     flex: 1;
     margin-right: 30px;
     display: flex;

@@ -21,3 +21,11 @@ nav_elemento2.addEventListener("click", () => nav.classList.toggle("active"));
 nav_elemento3.addEventListener("click", () => nav.classList.toggle("active"));
 
 nav_elemento4.addEventListener("click", () => nav.classList.toggle("active"));
+
+nav_elemento1.addEventListener("click", () => menu.classList.toggle("fechar"));
+
+nav_elemento2.addEventListener("click", () => menu.classList.toggle("fechar"));
+
+nav_elemento3.addEventListener("click", () => menu.classList.toggle("fechar"));
+
+nav_elemento4.addEventListener("click", () => menu.classList.toggle("fechar"));

@@ -182,7 +182,7 @@ header{
 } 
 
 .section-conteudo  p{
-    max-width: 500px;
+    max-width: 300px;
     font-size: 25px;
     color: black;
     align-self: center;
@@ -191,6 +191,12 @@ header{
 #section-habilidades > .section-conteudo{
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 545px){
+    #section-apresentacao{
+        margin-top: 90px;
+    }
 }
 
 @media (max-width: 870px){
